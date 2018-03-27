@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gin 'Shot' Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+
+	<h1>Gin 'Shot' Calculator</h1>
+	<p>Use this calculator to work out how much dilution a gin concentrate needs at a particular number of shots.</p>
+	<form>
+		<label>Original ABV: </label><input type="number" id="orgABV" step="0.1" placeholder="e.g. '80.2'"><br>
+		<label>Original Volume: </label><input type="number" id="orgVol" placeholder="e.g. '250'"><br>
+		<label>Shot: </label><input type="number" id="numShots" placeholder="e.g. '4'"><br>
+	</form>
+	<div class="navButtons">
+		<button>Submit</button>
+		<a href="index.html"><button>Back</button></a>
+	</div>
+
+	<p id="results"></p>
+
+<script src="ginshot.js"></script>
+
+</body>
+</html>
